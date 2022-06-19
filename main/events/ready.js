@@ -9,7 +9,7 @@ class Ready extends Listener {
     }
 
     exec() {
-        /*              Override Code for Blacklisted Servers
+        /*              Code To Leave Blacklisted Servers
             for (const [serverID, server] of map) {
                 if (BLServers.includes(serverID)) {
                     let ServerCache = this.client.guilds.cache.get(`${serverID}`)
