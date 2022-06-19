@@ -1,3 +1,272 @@
 {
-    "data": []
+    "data": [
+        {
+            "name": "unit",
+            "description": "Info on a unit",
+            "type": 1,
+            "options": [
+                {
+                    "name": "name",
+                    "description": "Name of unit not in []",
+                    "type": 3,
+                    "required": true
+                },
+                {
+                    "name": "type",
+                    "description": "Type of unit",
+                    "type": 3,
+                    "required": true,
+                    "choices": [
+                        {
+                            "name": "STR",
+                            "value": "str"
+                        },
+                        {
+                            "name": "PHY",
+                            "value": "phy"
+                        },
+                        {
+                            "name": "INT",
+                            "value": "int"
+                        },
+                        {
+                            "name": "AGL",
+                            "value": "agl"
+                        },
+                        {
+                            "name": "TEQ",
+                            "value": "teq"
+                        }
+                    ]
+                },
+                {
+                    "name": "rarity",
+                    "description": "Rarity of unit",
+                    "type": 3,
+                    "required": true,
+                    "choices": [
+                        {
+                            "name": "LR",
+                            "value": "lr"
+                        },
+                        {
+                            "name": "UR",
+                            "value": "ur"
+                        },
+                        {
+                            "name": "SSR",
+                            "value": "ssr"
+                        },
+                        {
+                            "name": "SR",
+                            "value": "sr"
+                        },
+                        {
+                            "name": "R",
+                            "value": "r"
+                        },
+                        {
+                            "name": "N",
+                            "value": "n"
+                        }
+                    ]
+                },
+                {
+                    "name": "[name]",
+                    "description": "Name of unit from in []",
+                    "type": 3,
+                    "required": false
+                },
+                {
+                    "name": "class",
+                    "description": "Class of unit",
+                    "type": 3,
+                    "required": false,
+                    "choices": [
+                        {
+                            "name": "SUPER",
+                            "value": "super"
+                        },
+                        {
+                            "name": "EXTREME",
+                            "value": "extreme"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "link",
+            "description": "Info on a Link Skill",
+            "type": 1,
+            "options": [
+                {
+                    "name": "name",
+                    "description": "Name of Link Skill",
+                    "type": 3,
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "category",
+            "description": "List of units from a Category",
+            "type": 1,
+            "options": [
+                {
+                    "name": "name",
+                    "description": "NName of Category",
+                    "type": 3,
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "types",
+            "description": "List of units from a Type/Class",
+            "type": 1,
+            "options": [
+                {
+                    "name": "type",
+                    "description": "List of Types",
+                    "type": 3,
+                    "required": false,
+                    "choices": [
+                        {
+                            "name": "STR",
+                            "value": "str"
+                        },
+                        {
+                            "name": "PHY",
+                            "value": "phy"
+                        },
+                        {
+                            "name": "INT",
+                            "value": "int"
+                        },
+                        {
+                            "name": "AGL",
+                            "value": "agl"
+                        },
+                        {
+                            "name": "TEQ",
+                            "value": "teq"
+                        }
+                    ]
+                },
+                {
+                    "name": "class",
+                    "description": "List of Classes",
+                    "type": 3,
+                    "required": false,
+                    "choices": [
+                        {
+                            "name": "SUPER",
+                            "value": "super"
+                        },
+                        {
+                            "name": "EXTREME",
+                            "value": "extreme"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "rarity",
+            "description": "List of units from a Rarity",
+            "type": 1,
+            "options": [
+                {
+                    "name": "list",
+                    "description": "List of Rarities",
+                    "type": 3,
+                    "required": true,
+                    "choices": [
+                        {
+                            "name": "LR",
+                            "value": "lr"
+                        },
+                        {
+                            "name": "UR",
+                            "value": "ur"
+                        },
+                        {
+                            "name": "SSR",
+                            "value": "ssr"
+                        },
+                        {
+                            "name": "SR",
+                            "value": "sr"
+                        },
+                        {
+                            "name": "R",
+                            "value": "r"
+                        },
+                        {
+                            "name": "N",
+                            "value": "n"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dictionary",
+            "description": "List of Dokkan terms",
+            "type": 1,
+            "options": [
+                {
+                    "name": "term",
+                    "description": "Term to be defined",
+                    "type": 3,
+                    "required": true
+                }
+            ]
+        },
+        {
+            "name": "report",
+            "description": "Report something",
+            "type": 1,
+            "options": [
+                {
+                    "name": "username",
+                    "description": "Full username#XXXX",
+                    "type": 3,
+                    "required": false
+                },
+                {
+                    "name": "id",
+                    "description": "User's Id",
+                    "type": 3,
+                    "required": false
+                },
+                {
+                    "name": "error",
+                    "description": "Describe error from bot",
+                    "type": 3,
+                    "required": false
+                }
+            ]
+        },
+        {
+            "name": "suggest",
+            "description": "suggest a feature",
+            "type": 1,
+            "options": [
+                {
+                    "name": "name",
+                    "description": "Name of suggestion",
+                    "type": 3,
+                    "required": true
+                },
+                {
+                    "name": "idea",
+                    "description": "Idea of suggestion",
+                    "type": 3,
+                    "required": true
+                }
+            ]
+        }
+    ]
 }
