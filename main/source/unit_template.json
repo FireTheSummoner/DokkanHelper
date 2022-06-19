@@ -1,0 +1,43 @@
+{
+    "name": {
+        "first": "[Insert Here]",
+        "second": "Insert Here"
+    },
+    "type": "TYPE HERE",
+    "class": "class here",
+    "rarity": "RARTY HERE",
+    "superATK": {
+        "name": "name here",
+        "effect": "description here"
+    },
+    "passiveSkill": {
+        "name": "name here",
+        "effect": "description here"
+    },
+    "hidden": {
+        "HP": [0, 0, 0, 0, 0],
+        "ATK": [0, 0, 0, 0, 0],
+        "DEF": [0, 0, 0, 0, 0],
+        "combo": 0,
+        "crit": 0,
+        "evasion": 0,
+        "typeATK": 0,
+        "typeDEF": 0,
+        "superATK": 0,
+        "recovery": 0
+    },
+    "links": ["insert here"],
+    "categories": ["insert here"],
+    "ultraSA": {
+        "name": "name here",
+        "effect": "description here"
+    },
+    "unitSA": {
+        "name": "name here",
+        "effect": "description here"
+    },
+    "activeSkill": {
+        "name": "name here",
+        "effect": "description here"
+    }
+}
