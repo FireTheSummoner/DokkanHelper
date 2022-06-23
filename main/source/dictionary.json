@@ -1,10 +1,12 @@
 {
     "words": [
         {
-            "word": "definition"
+            "word": "Link Skill",
+            "definition":  "Activated when 2 units next to each other have the same skill to give the unit a boost, does not stack."
         },
         {
-            "word": "definition"
+            "word": "word",
+            "definition":  "definition"
         }
     ]
 }
