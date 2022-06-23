@@ -72,7 +72,7 @@
                     ]
                 },
                 {
-                    "name": "[name]",
+                    "name": "name2",
                     "description": "Name of unit from in []",
                     "type": 3,
                     "required": false
